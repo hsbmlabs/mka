@@ -2,7 +2,7 @@ const quizData = {
     patterns: [
         {
             question: "What pattern is shown in this chart?",
-            image: "https://www.investopedia.com/thmb/4cWSkAIJJxzA9FjfDYYx9MpVEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/head_and_shoulders_example-912e93eed49b4cf2b07318948f0f6f11.png",
+            image: "https://i.imgur.com/XYZ123.jpg",
             options: [
                 "Head and Shoulders",
                 "Double Top",
