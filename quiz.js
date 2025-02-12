@@ -2,7 +2,7 @@ const quizData = {
     patterns: [
         {
             question: "What pattern is shown in this chart?",
-            image: "https://www.tradingview.com/x/pattern-quiz-1/",
+            image: "https://www.investopedia.com/thmb/4cWSkAIJJxzA9FjfDYYx9MpVEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/head_and_shoulders_example-912e93eed49b4cf2b07318948f0f6f11.png",
             options: [
                 "Head and Shoulders",
                 "Double Top",
@@ -13,11 +13,11 @@ const quizData = {
         },
         {
             question: "Identify this chart pattern:",
-            image: "https://www.tradingview.com/x/pattern-quiz-2/",
+            image: "https://www.investopedia.com/thmb/VX9ypUz9KzxDkUEy8XNLxDHkpZ8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cup_and_handle_chart_pattern-5c7247e746e0fb00013a0d1c.jpg",
             options: [
                 "Double Bottom",
                 "Triple Bottom",
-                "Inverse Head and Shoulders",
+                "Cup and Handle",
                 "Rounding Bottom"
             ],
             correct: 2
@@ -26,7 +26,7 @@ const quizData = {
     indicators: [
         {
             question: "What does this RSI reading indicate?",
-            image: "https://www.tradingview.com/x/rsi-quiz-1/",
+            image: "https://www.investopedia.com/thmb/qw-QZHs_u9YtLIJhEjEb9_v_O3k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dotdash_Final_Relative_Strength_Index_RSI_Apr_2020-01-69f353089d044130b38a6ddf6d747b46.jpg",
             options: [
                 "Overbought",
                 "Oversold",
@@ -37,7 +37,7 @@ const quizData = {
         },
         {
             question: "What signal does this MACD show?",
-            image: "https://www.tradingview.com/x/macd-quiz-1/",
+            image: "https://www.investopedia.com/thmb/3_7qwU7QHHxXfWdJ7Qh_mwnVUxE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/MACD-f5bb2f9e8cd24e3d8af95f32c04bc4c5.png",
             options: [
                 "Bullish Crossover",
                 "Bearish Crossover",
@@ -50,7 +50,7 @@ const quizData = {
     analysis: [
         {
             question: "Based on this chart, what would be the best trading action?",
-            image: "images/analysis/trading-scenario.jpg",
+            image: "https://www.investopedia.com/thmb/ml1ZrDownHWgrAmfwWz0nAuHHJY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/support_and_resistance_basics-5c7019e746e0fb0001721fb7.jpg",
             options: [
                 "Buy",
                 "Sell",
