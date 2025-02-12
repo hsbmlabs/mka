@@ -2,7 +2,7 @@ const quizData = {
     patterns: [
         {
             question: "What pattern is shown in this chart?",
-            image: "https://static.wixstatic.com/media/c62b14_4aaa7e2cbba84052afa088e68260d0c3~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_4aaa7e2cbba84052afa088e68260d0c3~mv2.png",
+            image: "https://a.c-dn.net/b/4uXeVy/headline_Head20and20Shoulders.jpg",
             options: [
                 "Head and Shoulders",
                 "Double Top",
@@ -13,20 +13,20 @@ const quizData = {
         },
         {
             question: "Identify this chart pattern:",
-            image: "https://static.wixstatic.com/media/c62b14_d2347a96ff8f4dd7a636c3e16e8f6400~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_d2347a96ff8f4dd7a636c3e16e8f6400~mv2.png",
+            image: "https://a.c-dn.net/b/2JDfaN/Double-Bottom-Pattern_body_Picture_1.png",
             options: [
                 "Double Bottom",
                 "Triple Bottom",
                 "Cup and Handle",
                 "Rounding Bottom"
             ],
-            correct: 2
+            correct: 0
         }
     ],
     indicators: [
         {
             question: "What does this RSI reading indicate?",
-            image: "https://static.wixstatic.com/media/c62b14_3f0c94f9e4b04b8b8c0005f6f7a0f5d3~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_3f0c94f9e4b04b8b8c0005f6f7a0f5d3~mv2.png",
+            image: "https://a.c-dn.net/b/4tKuYp/RSI-Indicator_body_Picture_1.png",
             options: [
                 "Overbought",
                 "Oversold",
@@ -37,7 +37,7 @@ const quizData = {
         },
         {
             question: "What signal does this MACD show?",
-            image: "https://www.investopedia.com/thmb/3_7qwU7QHHxXfWdJ7Qh_mwnVUxE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/MACD-f5bb2f9e8cd24e3d8af95f32c04bc4c5.png",
+            image: "https://a.c-dn.net/b/1IJlZl/MACD-Indicator_body_Picture_1.png",
             options: [
                 "Bullish Crossover",
                 "Bearish Crossover",
@@ -50,7 +50,7 @@ const quizData = {
     analysis: [
         {
             question: "Based on this chart, what would be the best trading action?",
-            image: "https://www.investopedia.com/thmb/ml1ZrDownHWgrAmfwWz0nAuHHJY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/support_and_resistance_basics-5c7019e746e0fb0001721fb7.jpg",
+            image: "https://a.c-dn.net/b/2Iry6C/Fibonacci-Retracement_body_Picture_1.png",
             options: [
                 "Buy",
                 "Sell",
@@ -58,8 +58,7 @@ const quizData = {
                 "Wait for confirmation"
             ],
             correct: 3
-        },
-        // Add more analysis questions
+        }
     ]
 };
 
