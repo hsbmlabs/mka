@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Quiz | Crypto Trading Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="crypto-basics.html">Crypto Basics</a></li>
+                <li><a href="exchange-guide.html">Exchange Guide</a></li>
+                <li><a href="technical-analysis-intro.html">TA Intro</a></li>
+                <li><a href="technical-analysis-bible.html">TA Bible</a></li>
+                <li><a href="trading-quiz.html">Trading Quiz</a></li>
+                <li><a href="binance-guide.html">Why Binance?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Trading Quiz Application</h1>
+
+        <section class="quiz-intro">
+            <h2>Test Your Trading Knowledge</h2>
+            <p>Challenge yourself with our interactive trading quizzes. Learn to identify patterns, analyze market conditions, and make better trading decisions.</p>
+        </section>
+
+        <section class="quiz-categories">
+            <h2>Quiz Categories</h2>
+            <div class="category-grid">
+                <div class="category">
+                    <h3>Pattern Recognition</h3>
+                    <p>Test your ability to identify various chart patterns</p>
+                    <button class="start-quiz" data-category="patterns">Start Quiz</button>
+                </div>
+
+                <div class="category">
+                    <h3>Technical Indicators</h3>
+                    <p>Practice interpreting different technical indicators</p>
+                    <button class="start-quiz" data-category="indicators">Start Quiz</button>
+                </div>
+
+                <div class="category">
+                    <h3>Market Analysis</h3>
+                    <p>Analyze real market situations and make trading decisions</p>
+                    <button class="start-quiz" data-category="analysis">Start Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz-container" class="hidden">
+            <!-- Quiz content will be dynamically loaded here -->
+        </section>
+
+        <section class="quiz-stats">
+            <h2>Your Progress</h2>
+            <div class="stats-container">
+                <div class="stat">
+                    <h3>Completed Quizzes</h3>
+                    <p id="completed-quizzes">0</p>
+                </div>
+                <div class="stat">
+                    <h3>Average Score</h3>
+                    <p id="average-score">0%</p>
+                </div>
+                <div class="stat">
+                    <h3>Best Category</h3>
+                    <p id="best-category">-</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crypto Trading Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html> 
