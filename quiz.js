@@ -2,7 +2,7 @@ const quizData = {
     patterns: [
         {
             question: "What pattern is shown in this chart?",
-            image: "https://i.imgur.com/XYZ123.jpg",
+            image: "https://static.wixstatic.com/media/c62b14_4aaa7e2cbba84052afa088e68260d0c3~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_4aaa7e2cbba84052afa088e68260d0c3~mv2.png",
             options: [
                 "Head and Shoulders",
                 "Double Top",
@@ -13,7 +13,7 @@ const quizData = {
         },
         {
             question: "Identify this chart pattern:",
-            image: "https://www.investopedia.com/thmb/VX9ypUz9KzxDkUEy8XNLxDHkpZ8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cup_and_handle_chart_pattern-5c7247e746e0fb00013a0d1c.jpg",
+            image: "https://static.wixstatic.com/media/c62b14_d2347a96ff8f4dd7a636c3e16e8f6400~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_d2347a96ff8f4dd7a636c3e16e8f6400~mv2.png",
             options: [
                 "Double Bottom",
                 "Triple Bottom",
@@ -26,7 +26,7 @@ const quizData = {
     indicators: [
         {
             question: "What does this RSI reading indicate?",
-            image: "https://www.investopedia.com/thmb/qw-QZHs_u9YtLIJhEjEb9_v_O3k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dotdash_Final_Relative_Strength_Index_RSI_Apr_2020-01-69f353089d044130b38a6ddf6d747b46.jpg",
+            image: "https://static.wixstatic.com/media/c62b14_3f0c94f9e4b04b8b8c0005f6f7a0f5d3~mv2.png/v1/fill/w_925,h_529,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c62b14_3f0c94f9e4b04b8b8c0005f6f7a0f5d3~mv2.png",
             options: [
                 "Overbought",
                 "Oversold",
